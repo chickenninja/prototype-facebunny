@@ -1,0 +1,29 @@
+<html lang="en">
+
+<% include ../partials/head %>
+
+<body>
+    <div role="main" class="container">
+
+      <div class="starter-template">
+        <h1>A Social Media site for Rabbits</h1>
+        <p class="lead">I <i>carrot</i> believe it!</p>
+      </div>
+
+	  <img src="rabbit.jpg" class="img-responsive mx-auto d-block" style="width:60%;" alt="FaceBunny"/>
+
+	 <form class="form-signin" action="home" method="GET">
+        <h2 class="form-signin-heading">Log In</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" name="email" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="password" class="form-control" placeholder="Password" required>
+        <input class="btn btn-lg btn-primary btn-block" type="submit"/>
+      </form>
+
+    </div>
+</body>
+
+<% include ../partials/footer %>
+
+</html>
